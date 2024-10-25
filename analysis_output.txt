@@ -1,0 +1,57 @@
+Dataset Preview:
+              Name Age Bracket  ...    Job Security Overall Engagement
+0         John Doe       25-34  ...           Agree     Strongly Agree
+1       Jane Smith       18-24  ...           Agree            Neutral
+2     Carlos Reyes       45-54  ...  Strongly Agree     Strongly Agree
+3      Emily Zhang       35-44  ...           Agree            Neutral
+4  Michael Johnson       18-24  ...         Neutral           Disagree
+
+[5 rows x 18 columns]
+
+Overall Engagement Stats:
+count    15.000000
+mean      3.400000
+std       1.298351
+min       1.000000
+25%       2.500000
+50%       3.000000
+75%       4.500000
+max       5.000000
+Name: Overall Engagement, dtype: float64
+
+Job Satisfaction Stats:
+count    15.000000
+mean      3.000000
+std       1.309307
+min       1.000000
+25%       2.000000
+50%       3.000000
+75%       4.000000
+max       5.000000
+Name: Job Satisfaction, dtype: float64
+
+Average Job Satisfaction by Department:
+Department
+Consulting             3.000000
+Design                 5.000000
+Finance                4.000000
+HR                     4.000000
+IT                     1.000000
+Operations             2.000000
+Product Development    2.666667
+Sales                  2.750000
+Name: Job Satisfaction, dtype: float64
+
+Average Job Satisfaction by Age Bracket:
+Age Bracket
+18-24    3.428571
+25-34    3.000000
+35-44    2.000000
+45-54    2.666667
+Name: Job Satisfaction, dtype: float64
+
+T-Statistic: -1.7320508075688774, P-Value: 0.33333333333333326
+Fail to reject the null hypothesis: No significant difference in Job Satisfaction between IT and HR.
+
+Correlation Coefficient: -0.36104082040916585, P-Value: 0.18612659993280437
+There is a negative correlation: As Work-Life Balance improves, Overall Engagement tends to decrease.
